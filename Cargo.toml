@@ -1,0 +1,10 @@
+[package]
+name = "hello-smoke-installer"
+version = "0.1.0"
+authors = ["Nathan McMillan54 <nathanmcmillan54@gmail.com>"]
+edition = "2018"
+description = "A 'hello world' and example for Smoke Installer game developers"
+
+[dependencies]
+emerald = { git = "https://github.com/Bombfuse/emerald.git", branch = "master" }
+
