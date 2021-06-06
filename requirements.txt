@@ -1,0 +1,2 @@
+pygame~="1.9.6"
+pyinstaller="1.4"

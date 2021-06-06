@@ -1,4 +1,9 @@
-#!/bin/sh
+#!/bin/bash
 
-cargo build 2> /dev/null
-sudo mv target/debug/hello-smoke-installer /bin/Hello_Smoke
+PASSWORD=$1
+
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+pyinstaller --onefile main.py
+echo $PASSWORD | sudo -S cp -r dist/main /bin/Hello_Smoke

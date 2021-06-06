@@ -1,3 +1,3 @@
 # Hello Smoke Installer!
 
-This is an [Emerald](https://github.com/Bombfuse/emerald) engine example for [Smoke Installer](https://smoke-installer.github.io)
+This is a [PyGame](https://pygame.org/) engine example for [Smoke Installer](https://smoke-installer.github.io)
